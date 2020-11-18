@@ -57,5 +57,5 @@ def translate(string):
     resp = session.post(api, params=params, headers=headers, data=data).json()
     print(resp)
 
-
-translate('爷爷')
+if __name__ == '__main__':
+    translate('爷爷')
